@@ -1,0 +1,98 @@
+/* 
+Author : Sourav Mahmud;
+*/
+
+/*====================================
+	1. Global Section/ Normalization
+	2. Header Section
+	3. Banner Section
+	4. News Section
+	5. Newsletter Section
+	6.
+	7. Footer Section
+=====================================*/
+
+/*-------------------------------
+	1. Global Section
+--------------------------------*/
+
+
+body{
+
+}
+
+/*
+2. Header Section
+*/
+
+.header{
+	background-color: #edeff1;
+}
+
+.navbar-light .navbar-nav .active>
+.nav-link, .navbar-light .navbar-nav
+.nav-link.active, .navbar-light .navbar-nav
+.nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 50px;
+    padding: 8px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 8px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 50px;
+}
+
+/* 3. Banner Section */
+.banner{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	padding: 300px 0px 75px;
+}
+
+.banner h1{
+	color: #fff;
+	font-size: 62px;
+	font-weight: 300;
+}
+.banner p{
+	color: #fff;
+	font-size: 16px;
+}
+.banner-content{
+	padding: 100px 0px 50px;
+}
+.banner-content h3{
+	color: #fff;
+	font-size: 32px;
+	font-weight: 300;
+	padding: 10px 0px 5px;
+}
+.btn-banner{
+	color:#dd4b2b;
+	background-color:#fff ;
+	margin: 20px 10px;
+	padding: 8px 16px;
+	border-radius: 30px;
+	-webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.btn-banner:hover{
+	color:#fff;
+	background-color: #dd4b2b;
+}
+
+/* 4. OurNews Section */
+.our-news{
+	background-color: #edeff1;
+}
+
