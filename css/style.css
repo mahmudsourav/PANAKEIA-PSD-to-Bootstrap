@@ -8,7 +8,7 @@ Author : Sourav Mahmud;
 	3. Banner Section
 	4. News Section
 	5. Newsletter Section
-	6.
+	6. Product Section
 	7. Footer Section
 =====================================*/
 
@@ -82,9 +82,9 @@ body{
 	padding: 8px 16px;
 	border-radius: 30px;
 	-webkit-transition: ease 0.4s all;
-    -moz-transition: ease 0.4s all;
-    -o-transition: ease 0.4s all;
-    transition: ease 0.4s all;
+    	-moz-transition: ease 0.4s all;
+    	-o-transition: ease 0.4s all;
+    	transition: ease 0.4s all;
 }
 .btn-banner:hover{
 	color:#fff;
@@ -95,4 +95,229 @@ body{
 .our-news{
 	background-color: #edeff1;
 }
+.our-news h2{
+	padding: 30px 0px 20px;
+}
+.our-news h3{
+	padding: 10px;
+}
+.newses{
+    padding-bottom: 20px;
+}
 
+/* 5. Newsletter Section Starts */
+.newsletter{
+	background: url(../img/newsletter-bg.png) no-repeat;
+	background-size: cover;
+}
+.newsletter-overlay{
+	background-color: rgba(0,0,0,.6);
+	padding: 75px 0px;
+}
+.newsletter h3{
+	color: #fff;
+	text-align: center;
+	padding: 15px 0px 10px;
+}
+.newsletter p{
+	color: #fff;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 15px 0px 40px;
+}
+.newsletter-form{
+	padding-top: 50px;
+}
+.form-group{
+	position: relative;
+}
+.btn-signup{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.form-control{
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: #fff;
+}
+.form-control:focus {
+    color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.btn-signup{
+	padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #dd4b2b;
+    border: 1px solid #fff;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.btn-signup:hover{
+	background-color: #dd4b2b;
+	border: 1px solid #dd4b2b;
+	color: #fff;
+}
+
+/* 6. product section */
+.product-1{
+	margin: 50px 0px;
+}
+.product-text-1{
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.product-text-1 p{
+	padding: 20px 0px;
+}
+
+.product-2{
+	margin: 50px 0px;
+}
+.product-text-2{
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.product-text-2 p{
+	padding: 20px 0px;
+}
+
+.btn-product-1{
+	padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #dd4b2b;
+    color: #fff;
+    border: 1px solid #dd4b2b;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.btn-product-1:hover{
+	background-color: #fff;
+	border: 1px solid #dd4b2b;
+	color: #dd4b2b;
+}
+
+.btn-product-2{
+	padding: 10px 45px;
+    border-radius: 50px;
+    background-color: #4b4e73;
+    color: #fff;
+    border: 1px solid #4b4e73;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.btn-product-2:hover{
+	background-color: #fff;
+	border: 1px solid #4b4e73;
+	color: #4b4e73;
+}
+
+/* 7. Footer Section */
+.footer{
+	margin-top: 100px;
+	padding: 50px 0px;
+	background-color: #dd4b2b;
+}
+
+.footer ul li{
+	list-style: none;
+	color: #fff;
+	text-align: center;
+}
+
+.bottom-footer-bg{
+	background: url(../img/newsletter-bg.png) no-repeat;
+	background-size: cover;
+}
+.bottom-footer{
+	background: rgba(0,0,0,.6);
+	padding: 100px 0px;
+}
+
+.bottom-footer p{
+	color: #fff;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+}
+.bottom-footer p span{
+	font-weight: bold;
+}
+
+/* Media Query */
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 500px){
+	.banner{
+		padding: 100px 0px 50px;
+	}
+	.banner h1{
+		font-size: 32px;
+	}
+	.btn-product{
+		margin-bottom: 30px;
+	}
+	.banner-content {
+	    padding: 25px 0px;
+	}
+	.banner p {
+	    padding-bottom: 25px;
+	}
+	.rd-mr{
+		margin-bottom: 30px;
+	}
+	.newsletter p {
+	    width: 80%;
+	}
+	.bottom-footer {
+	    background: rgba(0,0,0,.5);
+	    padding: 50px 0px;
+	}
+	.bottom-footer p {
+	    width: 80%;
+	}
+}
+
+/* Media Query for Tablet */
+@media only screen and (max-width: 768px){
+	.banner{
+		padding: 120px 0px 50px;
+	}
+	.banner h1{
+		font-size: 50px;
+	}
+	.btn-product{
+		margin-bottom: 40px;
+	}
+	.banner-content {
+	    padding: 35px 0px;
+	}
+	.banner p {
+	    padding-bottom: 25px;
+	}
+	.rd-mr{
+		margin-bottom: 35px;
+	}
+	.newsletter p {
+	    width: 80%;
+	}
+	.bottom-footer {
+	    background: rgba(0,0,0,.5);
+	    padding: 50px 0px;
+	}
+	.bottom-footer p {
+	    width: 80%;
+	}
+}
